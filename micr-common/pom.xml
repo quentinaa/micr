@@ -2,23 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
-    <!--自定义父项目-->
     <parent>
         <artifactId>micr-parent</artifactId>
         <groupId>com.xiong</groupId>
         <version>1.0.0</version>
         <relativePath>../micr-parent/pom.xml</relativePath>
     </parent>
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-    </dependencies>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>micr-api</artifactId>
+    <artifactId>micr-common</artifactId>
 
 
 </project>

@@ -1,9 +1,10 @@
 package com.xiong.api.model;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class RechargeRecord {
+public class RechargeRecord implements Serializable {
     private Integer id;
 
     private Integer uid;

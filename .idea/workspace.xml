@@ -4,25 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73753f1f-542b-4077-a75d-6f671b607b5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micr-dataservice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micr-dataservice/src/main/java/com/xiong/dataservice/MicrDataserviceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micr-dataservice/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micr-dataservice/src/test/java/com/xiong/dataservice/MicrDataserviceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="73753f1f-542b-4077-a75d-6f671b607b5b" name="Changes" comment="项目环境搭建">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/pojo/MultiProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/constants/YLBConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/enums/RCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/utils/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micr-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/model/BidInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/model/BidInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/model/FinanceAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/model/FinanceAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/model/IncomeRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/model/IncomeRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/model/ProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/model/ProductInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/model/RechargeRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/model/RechargeRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micr-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cd46b84b-655d-46ea-ac6a-66266ebf5a37" />
+        <option name="url" value="https://github.com/quentinaa/micr.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,30 +68,68 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="corretto-1.8" />
+  </component>
   <component name="ProjectId" id="2TSMFl0A1DlMcnacJq9TwwcHoG9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "last_opened_file_path": "D:/code/Java/idea/spring-cloud/micr/micr-web/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.13967973",
+    "project.structure.side.proportion": "0.29089028",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "305ba8aafe7070218f773f1897af84bf",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\Java\idea\spring-cloud\micr\micr-web\src\main\resources" />
+      <recent name="D:\code\Java\idea\spring-cloud\micr\micr-dataservice\src\main\java\com\xiong\dataservice\mapper" />
+      <recent name="D:\code\Java\idea\spring-cloud\micr\micr-dataservice\src\main\resources\mappers" />
+      <recent name="D:\code\Java\idea\spring-cloud\micr\micr-api\src\main\java\com\xiong\api\model" />
+      <recent name="D:\code\Java\idea\spring-cloud\micr\micr-dataservice\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MicrDataserviceApplication">
     <configuration name="MicrDataserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="micr-dataservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiong.dataservice.MicrDataserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicrWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="micr-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiong.front.MicrWebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,11 +143,65 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691031927026</updated>
-      <workItem from="1691031928132" duration="540000" />
+      <workItem from="1691031928132" duration="3709000" />
+      <workItem from="1691045631466" duration="30000" />
+      <workItem from="1691045674602" duration="3571000" />
+      <workItem from="1691049297177" duration="11151000" />
     </task>
+    <task id="LOCAL-00001" summary="项目环境搭建">
+      <option name="closed" value="true" />
+      <created>1691043720324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691043720324</updated>
+    </task>
+    <task id="LOCAL-00002" summary="项目环境搭建">
+      <option name="closed" value="true" />
+      <created>1691043805149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691043805149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="application.yml" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目环境搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目环境搭建" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/micr-web/src/main/java/com/xiong/front/controller/ProductController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/micr-dataservice/src/main/java/com/xiong/dataservice/service/ProductServiceImpl.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

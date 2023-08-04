@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/micr-dataservice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/micr-web" vcs="Git" />
   </component>
 </project>
