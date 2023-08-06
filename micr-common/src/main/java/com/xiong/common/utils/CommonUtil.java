@@ -1,5 +1,7 @@
 package com.xiong.common.utils;
 
+import java.util.regex.Pattern;
+
 /**
  * @author xiong
  * @version 1.0
@@ -31,5 +33,9 @@ public class CommonUtil {
             result=phone.substring(0,3)+"******"+phone.substring(9);
         }
         return result;
+    }
+    //检查手机号
+    public static boolean checkPhone(String phone){
+        return Pattern.matches("^1[1-9]\\d{9}$",phone);
     }
 }

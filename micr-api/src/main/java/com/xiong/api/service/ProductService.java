@@ -13,4 +13,7 @@ public interface ProductService {
     Integer queryRecordNumsByType(Integer pType);
     //首页的多个产品数据
     MultiProduct queryIndexPageProducts();
+
+    //根据产品id，查询产品信息
+    public ProductInfo queryById(Integer id);
 }
