@@ -23,4 +23,13 @@ public class CommonUtil {
         }
         return pSize;
     }
+
+    //手机号脱敏
+    public static String desensitization(String phone){
+        String result="***********";
+        if (phone!=null&&phone.trim().length()==11){
+            result=phone.substring(0,3)+"******"+phone.substring(9);
+        }
+        return result;
+    }
 }
