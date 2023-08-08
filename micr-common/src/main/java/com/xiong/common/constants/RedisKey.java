@@ -11,4 +11,5 @@ public class RedisKey {
     public static final String KEY_INVEST_RANK="INVEST:RANK";
 
     public static final String SMS_REG_PHONE="SMS:REG:";
+    public static final String SMS_LOGIN_PHONE="SMS:LOGIN:";
 }

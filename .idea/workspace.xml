@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73753f1f-542b-4077-a75d-6f671b607b5b" name="Changes" comment="首页数据显示">
-      <change afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/pojo/BidInfoProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/InvestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/UserService.java" afterDir="false" />
+    <list default="true" id="73753f1f-542b-4077-a75d-6f671b607b5b" name="Changes" comment="注册功能">
+      <change afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/pojo/UserAccountInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/RechargeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/utils/HttpClientUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micr-common/src/test/java/JwtTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micr-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micr-common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/constants/RedisKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/constants/RedisKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/utils/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/utils/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/enums/RCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/enums/RCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micr-parent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,46 +70,46 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/code/Java/idea/spring-cloud/micr/micr-web/src/main/java/com/xiong/front/settings&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.13967973&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.29089028&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;305ba8aafe7070218f773f1897af84bf&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "last_opened_file_path": "D:/code/Java/idea/spring-cloud/micr/micr-common/src/main/java/com/xiong/common/utils",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.13967973",
+    "project.structure.side.proportion": "0.29089028",
+    "settings.editor.selected.configurable": "spring.boot",
+    "spring.configuration.checksum": "305ba8aafe7070218f773f1897af84bf",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;redis&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\Java\idea\spring-cloud\micr\micr-common\src\main\java\com\xiong\common\utils" />
+      <recent name="D:\code\Java\idea\spring-cloud\micr\micr-web\src\main\java\com\xiong\front\config" />
       <recent name="D:\code\Java\idea\spring-cloud\micr\micr-web\src\main\java\com\xiong\front\settings" />
       <recent name="D:\code\Java\idea\spring-cloud\micr\micr-web\src\main\resources" />
       <recent name="D:\code\Java\idea\spring-cloud\micr\micr-dataservice\src\main\java\com\xiong\dataservice\mapper" />
-      <recent name="D:\code\Java\idea\spring-cloud\micr\micr-dataservice\src\main\resources\mappers" />
-      <recent name="D:\code\Java\idea\spring-cloud\micr\micr-api\src\main\java\com\xiong\api\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,7 +119,17 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MicrDataserviceApplication">
+  <component name="RunManager" selected="JUnit.JwtTest.testCreateJwt">
+    <configuration name="JwtTest.testCreateJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="micr-common" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JwtTest" />
+      <option name="METHOD_NAME" value="testCreateJwt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MicrDataserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="micr-dataservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiong.dataservice.MicrDataserviceApplication" />
@@ -131,6 +144,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JwtTest.testCreateJwt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -146,7 +164,8 @@
       <workItem from="1691049297177" duration="11151000" />
       <workItem from="1691114220816" duration="9236000" />
       <workItem from="1691198999215" duration="5727000" />
-      <workItem from="1691286675635" duration="17187000" />
+      <workItem from="1691286675635" duration="18729000" />
+      <workItem from="1691374166169" duration="27015000" />
     </task>
     <task id="LOCAL-00001" summary="项目环境搭建">
       <option name="closed" value="true" />
@@ -180,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691286697401</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="注册功能">
+      <option name="closed" value="true" />
+      <created>1691328194483</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691328194483</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +230,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目环境搭建" />
     <MESSAGE value="首页数据显示" />
-    <option name="LAST_COMMIT_MESSAGE" value="首页数据显示" />
+    <MESSAGE value="注册功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -218,7 +246,50 @@
           <line>34</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/micr-web/src/main/java/com/xiong/front/service/impl/SmsCodeLoginImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/micr-web/src/main/java/com/xiong/front/controller/SmsController.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/micr-common/src/test/java/JwtTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/micr-web/src/main/java/com/xiong/front/service/impl/RealNameServiceImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/micr-dataservice/src/main/java/com/xiong/dataservice/service/UserServiceImpl.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/micr-web/src/main/java/com/xiong/front/service/impl/RealNameServiceImpl.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/micr-dataservice/src/main/java/com/xiong/dataservice/mapper/UserMapper.java</url>
+          <line>29</line>
+          <properties class="com.xiong.dataservice.mapper.UserMapper" method="updateRealName">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package com.xiong.common.enums;
 public enum RCode {
     UNKOWN(303,"请稍后重试"),
+    TOKEN_INVALID(300,"Token无效"),
     SUCCESS(200,"请求成功");
     //应答码
     private int code;
