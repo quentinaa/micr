@@ -1,5 +1,6 @@
 package com.xiong.common.utils;
 
+import java.math.BigDecimal;
 import java.util.regex.Pattern;
 
 /**
@@ -37,5 +38,10 @@ public class CommonUtil {
     //检查手机号
     public static boolean checkPhone(String phone){
         return Pattern.matches("^1[1-9]\\d{9}$",phone);
+    }
+
+
+    public static boolean ge(BigDecimal n1,BigDecimal n2){
+        return n1.compareTo(n2)>=0;
     }
 }

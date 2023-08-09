@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/micr-dataservice/pom.xml" />
         <option value="$PROJECT_DIR$/micr-web/pom.xml" />
         <option value="$PROJECT_DIR$/micr-common/pom.xml" />
+        <option value="$PROJECT_DIR$/micr-task/pom.xml" />
+        <option value="$PROJECT_DIR$/micr-pay/pom.xml" />
       </list>
     </option>
   </component>

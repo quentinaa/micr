@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73753f1f-542b-4077-a75d-6f671b607b5b" name="Changes" comment="登录功能" />
+    <list default="true" id="73753f1f-542b-4077-a75d-6f671b607b5b" name="Changes" comment="登录功能">
+      <change afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/IncomeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/InvestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/InvestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-api/src/main/java/com/xiong/api/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/constants/YLBConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/constants/YLBConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/utils/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/micr-common/src/main/java/com/xiong/common/utils/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micr-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micr-parent/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +117,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JwtTest.testCreateJwt">
+  <component name="RunManager" selected="Spring Boot.MicrTaskApplication">
     <configuration name="JwtTest.testCreateJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="micr-common" />
       <option name="PACKAGE_NAME" value="" />
@@ -125,6 +135,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MicrPayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="micr-pay" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiong.MicrPayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicrTaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="micr-task" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiong.MicrTaskApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MicrWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="micr-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiong.front.MicrWebApplication" />
@@ -134,6 +164,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MicrTaskApplication" />
         <item itemvalue="JUnit.JwtTest.testCreateJwt" />
       </list>
     </recent_temporary>
@@ -154,7 +185,8 @@
       <workItem from="1691198999215" duration="5727000" />
       <workItem from="1691286675635" duration="18729000" />
       <workItem from="1691374166169" duration="27015000" />
-      <workItem from="1691458935270" duration="741000" />
+      <workItem from="1691458935270" duration="10008000" />
+      <workItem from="1691547824501" duration="8284000" />
     </task>
     <task id="LOCAL-00001" summary="项目环境搭建">
       <option name="closed" value="true" />
@@ -212,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691459219629</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="登录功能">
+      <option name="closed" value="true" />
+      <created>1691459683559</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691459683559</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,11 +283,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/micr-dataservice/src/main/java/com/xiong/dataservice/service/ProductServiceImpl.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/micr-web/src/main/java/com/xiong/front/controller/InvestController.java</url>
           <line>34</line>
           <option name="timeStamp" value="4" />
@@ -273,11 +308,6 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/micr-dataservice/src/main/java/com/xiong/dataservice/service/UserServiceImpl.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/micr-web/src/main/java/com/xiong/front/service/impl/RealNameServiceImpl.java</url>
           <line>56</line>
           <option name="timeStamp" value="19" />
@@ -286,7 +316,6 @@
           <url>file://$PROJECT_DIR$/micr-dataservice/src/main/java/com/xiong/dataservice/mapper/UserMapper.java</url>
           <line>29</line>
           <properties class="com.xiong.dataservice.mapper.UserMapper" method="updateRealName">
-            <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="18" />

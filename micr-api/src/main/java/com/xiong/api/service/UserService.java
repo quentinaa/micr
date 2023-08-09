@@ -18,4 +18,6 @@ public interface UserService {
 
     //获取用户详细信息
     UserAccountInfo queryUserAllInfo(Integer uid);
+
+    User queryByid(Integer uid);
 }
